@@ -1657,7 +1657,7 @@
     position: relative;
   }
   
-  .hero-text {
+  .hero-text-banner {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -1665,10 +1665,10 @@
     transform: translate(-50%, -50%);
     color: rgb(41, 41, 41);
   }
-  .hero-text>p{
+  .hero-text-banner>p{
     font-size: 15px;
   }
-  .hero-text>h1{
+  .hero-text-banner>h1{
     font-size:70px;
   }
 
@@ -1701,4 +1701,19 @@
   .hero-text-contact>h1{
     font-size:50px;
   }
-  
+
+  .hero-text-contact>div{
+display: flex;
+justify-content: center;
+margin-top: 15px;
+  }
+
+   .hero-text-contact>div>a{
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    font-weight: 800;
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   }
